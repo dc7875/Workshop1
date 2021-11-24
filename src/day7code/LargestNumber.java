@@ -21,10 +21,10 @@ public class LargestNumber {
 		
 		for(sum=0; largest!=0; largest=largest/10)  
 		{  
-		//finds the last digit and add it to the variable sum      
+		     
 		sum = sum + largest % 10;  
 		}  
-		//prints the result  
+		  
 		System.out.println("Sum of digits: "+sum);  
 	
 	}
